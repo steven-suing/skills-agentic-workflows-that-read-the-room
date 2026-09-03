@@ -18,6 +18,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "Update GitHub info: "
@@ -40,9 +41,10 @@ Use the `web-fetch` tool to fetch these public sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 ## Instructions
 
-Compare the notes, current `site/content/github-info.md`, and fetched GitHub Blog sources. Update only `site/content/github-info.md` with concise, useful information that is relevant to the site and Mona's review.
+Compare the notes, current `site/content/github-info.md`, and fetched GitHub Blog and Awesome Copilot workflow sources. Update only `site/content/github-info.md` with concise, useful information that is relevant to the site and Mona's review.
 
 Use the configured safe output `create-pull-request` to open a pull request for Mona to review. Do not write directly to `main`.
